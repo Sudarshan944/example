@@ -1,6 +1,5 @@
-num = input("Enter number :")
-n = len(num)
-num = int(num)
+num = int(input("Enter number :"))
+n = len(str(num))
 temp = num
 sum = 0
 while num > 0:
