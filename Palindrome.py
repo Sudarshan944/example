@@ -6,6 +6,6 @@ while num>0:
     rev=rev*10+rem
     num//=10
 if(rev==temp):
-    print("Armstrong")
+    print("Palindrome")
 else:
-    print("Not a Armstrong Number")
+    print("Not a Palindrome")
